@@ -1,0 +1,66 @@
+.main-content {
+    background: linear-gradient(158deg, rgba(91,91,91,1) 0%, rgba(19,19,20,1) 76%, rgba(25,26,29,1) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content > .left-side > .sentence-one {
+    color: white;
+    font-size: 3.6em;
+    font-weight: 300;
+    margin-top: 5.5rem;
+    margin-left: 4rem;
+}
+
+.main-content > .left-side > .sentence-one span {
+    font-weight: 500;
+}
+
+.main-content > .left-side > .sentence-two {
+    color: #afb2b0;
+    font-size: 2.82em;
+    font-weight: 375;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+#free {
+    color: black;
+    background-color: #4bce79;
+    font-size: 3em;
+    border: none;
+    outline: none;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 4rem;
+    margin-bottom: 3.5rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+}
+
+#learn {
+    color: white;
+    background-color: black;
+    font-size: 3em;
+    border: none;
+    outline: none;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.main-content > .right-side > .codepen-projects {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+}
+
+.main-content > .right-side > .codepen-projects span {
+    color: #62d4f5;
+}
+
+.main-content > .right-side > .project-image img {
+    height: 625px;
+}

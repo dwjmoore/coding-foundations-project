@@ -1,0 +1,99 @@
+/*Common Properties*/
+.header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Logo*/
+.header > .logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.75rem;
+}
+
+.header > .logo img {
+    height: 100%;
+    width: 250px;
+}
+
+/*Nav Link Section*/
+.header > .navigation-wrapper {
+    margin-right: 6rem
+}
+
+.header > .navigation-wrapper > .explore-text {
+    color: khaki;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.header > .navigation-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .nav-link a {
+    color: white;
+    text-align: center;
+    padding-right: 27px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .spark-dropdown-menu {
+    margin-bottom: -9px;
+    margin-left: 25px;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .spark-dropdown-menu > .dropbtn {
+    color: darkgray;
+    background-color: black;
+    font-size: 1.75em;
+    border: none;
+    outline: none;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .spark-dropdown-menu > .dropbtn i {
+    font-size: 0.75em;
+    margin-left: 12px;
+}
+
+/*Right-Side Btns*/
+.header > .right-side-btns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header > .right-side-btns-wrapper > .right-side-btn button {
+    color: white;
+    background-color: #36383f;
+    font-size: 1.75em;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 27px 37px 27px 37px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.header > .right-side-btns-wrapper > .right-side-btn > button i {
+    color: mediumseagreen;
+    margin-left: 6px;
+}
+
+
+.header > .right-side-btns-wrapper > .nav-link > a > i {
+    color: gray;
+    font-size: 2.7em;
+    padding-left: 40px;
+    padding-right: 15px;
+}
